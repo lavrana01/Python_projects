@@ -1,0 +1,25 @@
+Started by user [8mha:////4EGr7btEqIjoz2PwnjmGaptn7+4vc4umWFU/oZWaw+gWAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZ+/dLi1CKgGWVFiXmJBoYAU84pX8QAAAA=[0mLavrana
+Running as SYSTEM
+Building in workspace C:\Users\Acer\Python_basics\JAVA_BA\workspace\helllo
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/lavrana01/l4V.git
+ > git.exe init C:\Users\Acer\Python_basics\JAVA_BA\workspace\helllo # timeout=10
+Fetching upstream changes from https://github.com/lavrana01/l4V.git
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.32.0.windows.1'
+ > git.exe fetch --tags --force --progress -- https://github.com/lavrana01/l4V.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url https://github.com/lavrana01/l4V.git # timeout=10
+ > git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git.exe rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+Checking out Revision 255e1bc7af3c2a80c618e54da50adfb4706de22d (refs/remotes/origin/main)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 255e1bc7af3c2a80c618e54da50adfb4706de22d # timeout=10
+Commit message: "Add files via upload"
+First time build. Skipping changelog.
+[helllo] $ cmd /c call C:\Users\Acer\AppData\Local\Temp\jenkins2010620633341193185.bat
+
+C:\Users\Acer\Python_basics\JAVA_BA\workspace\helllo>exit 0 
+Finished: SUCCESS
